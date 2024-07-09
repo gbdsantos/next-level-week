@@ -36,7 +36,8 @@
 
 ## About
 
--
+An app to organize your travels.
+An app to schedule your travels.
 
 ## Getting Start
 
@@ -46,6 +47,8 @@ npm install
 
 # 2. Run app
 npx expo start
+# or
+npx expo start --tunnel --clear
 ```
 
 <br>
@@ -60,6 +63,15 @@ npx create-expo-app --template
 
 # Add NativeWind
 npx expo install nativewind@^4.0.1 react-native-reanimated tailwindcss
+
+# Add Expo Font
+npx expo install expo-font @expo-google-fonts/inter
+
+# Add clsx
+npm install clsx
+
+# Add Lucide icons
+npx expo install react-native-svg lucide-react-native
 ```
 
 <br>
@@ -72,7 +84,7 @@ npx expo install nativewind@^4.0.1 react-native-reanimated tailwindcss
 
 ## Technologies
 
-- [NativeWind](https://www.nativewind.dev "Native Wind v4.0")
+- [NativeWind](https://www.nativewind.dev "Native Wind v4.0") - Use Tailwindcss in React Native
 
 ---
 

@@ -46,6 +46,8 @@ npm install
 
 # 2. Executar o app
 npx expo start
+# ou
+npx expo start --tunnel --clear
 ```
 
 <br>
@@ -57,6 +59,18 @@ npx expo start
 npx create-expo-app@latest
 # ou
 npx create-expo-app --template
+
+# Adicionar NativeWind
+npx expo install nativewind@^4.0.1 react-native-reanimated tailwindcss
+
+# Adicionar Expo Font
+npx expo install expo-font @expo-google-fonts/inter
+
+# Adicionar clsx
+npm install clsx
+
+# Adicionar icones Lucide
+npx expo install react-native-svg lucide-react-native
 ```
 
 <br>
@@ -66,6 +80,10 @@ npx create-expo-app --template
 - Android SDK >=23 (Android 6.0)
 - Node.js >=18
 - Java JDK 17
+
+## Tecnologias
+
+- [NativeWind](https://www.nativewind.dev "Native Wind v4.0") - Usar Tailwindcss no React Native
 
 ---
 
