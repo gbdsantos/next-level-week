@@ -1,50 +1,79 @@
-# Welcome to your Expo app 👋
+<h1 align="center">
+    <br>
+    Planner
+</h1>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
+  <a href="https://expo.dev">
+    <img alt="Expo SDK version" src="https://img.shields.io/badge/expo--sdk-v51.0.18-blue?logo=expo&labelColor=20232A&color=5a5a5a">
+  </a>
 
-## Get started
+  <a href="https://nodejs.org">
+    <img alt="Node.js version" src="https://img.shields.io/badge/node.js-v20.15.1-43853D?style=flat&logo=node.js&logoColor=white&labelColor=43853D&color=5a5a5a">
+  </a>
 
-1. Install dependencies
+  <a href="https://reactnative.dev">
+    <img alt="React Native version" src="https://img.shields.io/badge/react--native-v0.74.3-blue?logo=react&labelColor=20232A&color=5a5a5a">
+  </a>
+</p>
 
-   ```bash
-   npm install
-   ```
+<div align="center">
+  <details>
+  <summary><b>Demo</b></summary>
+  <div style="width: 90%;">
+    <img alt="app usage application demonstration" src="demo.gif" />
+  </div>
+  </details>
+</div>
 
-2. Start the app
+<br>
 
-   ```bash
-    npx expo start
-   ```
+<div align="center">
+  <h4 align="center">read in the language</h4>
+  <a href="https://github.com/gbdsantos/next-level-week-16-planner/blob/master/README.pt-BR.md" hreflang="pt-br" alt="pt-br">🇧🇷 portuguese
+  </a>
+</div>
 
-In the output, you'll find options to open the app in a
+## About
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+-
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Getting Start
 
-## Get a fresh project
+```Bash
+# 1. Install dependencies
+npm install
 
-When you're ready, run:
-
-```bash
-npm run reset-project
+# 2. Run app
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+<br>
 
-## Learn more
+## Executed commands
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+# Create project
+npx create-expo-app@latest
+# or
+npx create-expo-app --template
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+# Add NativeWind
+npx expo install nativewind@^4.0.1 react-native-reanimated tailwindcss
+```
 
-## Join the community
+<br>
 
-Join our community of developers creating universal apps.
+## Local environment requirements
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Android SDK >=23 (Android 6.0)
+- Node.js >=18
+- Java JDK 17
+
+## Technologies
+
+- [NativeWind](https://www.nativewind.dev "Native Wind v4.0")
+
+---
+
+Made with ❤️ by **Guilherme Bezerra** 👋 [Get in touch!](https://www.linkedin.com/in/gbdsantos "LinkedIn - Guilherme Bezerra")
