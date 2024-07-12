@@ -30,7 +30,7 @@
 
 <div align="center">
   <h4 align="center">read in the language</h4>
-  <a href="https://github.com/gbdsantos/next-level-week-16-planner/blob/master/README.pt-BR.md" hreflang="pt-br" alt="pt-br">🇧🇷 portuguese
+  <a href="https://github.com/gbdsantos/next-level-week-15-journey/blob/master/README.pt-BR.md" hreflang="pt-br" alt="pt-br">🇧🇷 portuguese
   </a>
 </div>
 
