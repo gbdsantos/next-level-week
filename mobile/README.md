@@ -72,6 +72,15 @@ npm install clsx
 
 # Add Lucide icons
 npx expo install react-native-svg lucide-react-native
+
+# Add react-native-calendars
+npm install react-native-calendars
+
+# Add Expo Blur
+npx expo install expo-blur
+
+# Add axios
+npm install axios
 ```
 
 <br>
