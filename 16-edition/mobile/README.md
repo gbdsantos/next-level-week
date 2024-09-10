@@ -39,6 +39,8 @@
 An app to organize your travels.
 An app to schedule your travels.
 
+Projects in 10 paths made in 15ª edition Next Level Week: Journey event by Rocketseat during 08, 09, 10 and 11 July of the 2024.
+
 ## Getting Start
 
 ```Bash
