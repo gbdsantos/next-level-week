@@ -8,12 +8,19 @@ import {
 import { createCompletionRoute } from './routes/create-completion'
 import { createGoalRoute } from './routes/create-goal'
 import { getWeekPendingGoalsRoute } from './routes/get-pending-goals'
+import { getWeekSummaryRoute } from './routes/get-week-summary'
+import fastifyCors from '@fastify/cors'
 
 const app = fastify().withTypeProvider<ZodTypeProvider>()
+
+app.register(fastifyCors, {
+  origin: '*',
+})
 
 app.register(createCompletionRoute)
 app.register(createGoalRoute)
 app.register(getWeekPendingGoalsRoute)
+app.register(getWeekSummaryRoute)
 
 // Add schema validator and serializer
 app.setValidatorCompiler(validatorCompiler)

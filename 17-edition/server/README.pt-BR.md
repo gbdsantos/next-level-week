@@ -8,7 +8,7 @@
     <img alt="Versão do Drizzle" src="https://img.shields.io/badge/drizzle-v0.33.0-43853D?style=flat&logo=drizzle&logoColor=c5f74f&labelColor=000&color=393939">
   </a>
   <a href="https://nodejs.org">
-    <img alt="versão do Node.js" src="https://img.shields.io/badge/node.js-v20.16.13853D?style=flat&logo=node.js&logoColor=white&labelColor=43853D&color=5a5a5a">
+    <img alt="versão do Node.js" src="https://img.shields.io/badge/node.js-v20.16.1-3853D?style=flat&logo=node.js&logoColor=white&labelColor=43853D&color=5a5a5a">
   </a>
 </p>
 
@@ -95,6 +95,9 @@ npm i dayjs
 
 # Instalar fastify-type-provider-zod
 npm i fastify-type-provider-zod
+
+# Instalar fastify/cors
+npm i @fastify/cors
 ```
 
 <br>

@@ -26,3 +26,9 @@ Content-Type: application/json
 }
 
 ###
+
+# @name get_week_summary
+GET {{baseUrl}}/summary
+Content-Type: application/json
+
+###

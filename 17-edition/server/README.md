@@ -95,6 +95,9 @@ npm i dayjs
 
 # Install fastify-type-provider-zod
 npm i fastify-type-provider-zod
+
+# Install fastify/cors
+npm i @fastify/cors
 ```
 
 <br>
