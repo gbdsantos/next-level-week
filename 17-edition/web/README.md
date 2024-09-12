@@ -59,6 +59,24 @@ npm install -D tailwindcss postcss autoprefixer
 
 # Inicialize tailwindcss
 npx tailwindcss init -p
+
+# Install icons library lucide-react
+npm i lucide-react
+
+# Install tailwind-merge
+npm i tailwind-merge
+
+# Install tailwind-variants
+npm i tailwind-variants
+
+# Install @radix-ui/react-radio-group
+npm i @radix-ui/react-radio-group
+
+# Install @radix-ui/react-progress
+npm i @radix-ui/react-progress
+
+# Install @radix-ui/react-dialog
+npm i @radix-ui/react-dialog
 ```
 
 <br>
