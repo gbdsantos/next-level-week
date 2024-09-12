@@ -77,6 +77,12 @@ npm i @radix-ui/react-progress
 
 # Instalar @radix-ui/react-dialog
 npm i @radix-ui/react-dialog
+
+# Instalar TanStack Query
+npm i @tanstack/react-query
+
+# Instalar dayjs
+npm i dayjs
 ```
 
 <br>
@@ -91,6 +97,7 @@ npm i @radix-ui/react-dialog
 - [Node.js](https://nodejs.org "Node.js") - Ambiente/plataforma em tempo de execução para JavaScript
 - [React](https://react.dev "React - A biblioteca para interfaces de usuário nativas e da web") - A biblioteca para interfaces de usuário nativas e da web
 - [Tailwindcss](https://tailwindcss.com "Tailwindcss") - Framework CSS utilitário utilizando classes inline
+- [TanStack Query](https://tanstack.com/query/latest "TanStack Query - Gerenciamento de estado assíncrono poderoso para TS/JS, React, Solid, Vue, Svelte e Angular") - Gerenciamento de estado assíncrono poderoso para TS/JS
 
 ---
 
