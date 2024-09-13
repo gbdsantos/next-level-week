@@ -13,6 +13,9 @@
   <a href="https://tailwindcss.com">
     <img alt="tailwindcss version" src="https://img.shields.io/badge/tailwindcss-v3.4.11-0b1120?logo=tailwindcss&labelColor=0b1120&color=5a5a5a" target="_blank">
   </a>
+  <a href="https://tanstack.com/query/latest">
+    <img alt="tanstack query version" src="https://img.shields.io/badge/tanstack/react%2D-query-v5.56.2-0b1120?logo=react-query&labelColor=0b1120&color=393939" target="_blank">
+  </a>
 </p>
 
 <div align="center">
@@ -83,6 +86,9 @@ npm i @tanstack/react-query
 
 # Instalar dayjs
 npm i dayjs
+
+# Instal react-hook-form @hookform/resolvers zod
+npm i react-hook-form @hookform/resolvers zod
 ```
 
 <br>

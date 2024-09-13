@@ -3,14 +3,15 @@ import { CheckCircle2, Plus } from 'lucide-react'
 import { Button } from './ui/button'
 import { DialogTrigger } from './ui/dialog'
 import { InOrbitIcon } from './in-orbit-icon'
+import { PendingGoals } from './pending-goals'
 import { Progress, ProgressIndicator } from './ui/progress-bar'
 import { Separator } from './ui/separator'
 
 import dayjs from 'dayjs'
 import ptBR from 'dayjs/locale/pt-br'
-import { useQuery } from '@tanstack/react-query'
+
 import { getSummary } from '../http/get-summary'
-import { PendingGoals } from './pending-goals'
+import { useQuery } from '@tanstack/react-query'
 
 dayjs.locale(ptBR)
 
