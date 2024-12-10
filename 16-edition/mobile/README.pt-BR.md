@@ -80,6 +80,9 @@ npx expo install expo-blur
 
 # Adicionar Axios
 npm install axios
+
+# Adicionar Zod
+npm install zod
 ```
 
 <br>

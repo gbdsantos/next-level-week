@@ -30,7 +30,8 @@ async function create({
 
     return data
   } catch (error) {
-    
+    console.error(error)
+    throw error
   }
 }
 

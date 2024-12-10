@@ -49,7 +49,7 @@ npm install
 
 # 2. Run app
 npx expo start
-# or
+# or use bellow command if has AxiosError: Network Error
 npx expo start --tunnel --clear
 ```
 
@@ -83,6 +83,12 @@ npx expo install expo-blur
 
 # Add axios
 npm install axios
+
+# Add Zod
+npm install zod
+
+# Install Expo Async Storage
+npx expo install @react-native-async-storage/async-storage
 ```
 
 <br>
