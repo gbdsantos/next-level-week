@@ -59,6 +59,15 @@ npx expo start --tunnel --clear
 ```bash
 # Create project
 npx create-expo-app --template # select template: Navigation (TypeScript)
+
+# Install Rubik font
+npx expo install expo-font @expo-google-fonts/rubik
+
+# Install TablerIcons
+npm install  @tabler/icons-react-native
+
+# Render SVG
+npx expo install react-native-svg
 ```
 
 <br>
@@ -70,6 +79,8 @@ npx create-expo-app --template # select template: Navigation (TypeScript)
 - Java JDK 17
 
 ## Technologies
+
+- [TablerIcons](https://tabler.io/icons "TablerIcons")
 
 ---
 
