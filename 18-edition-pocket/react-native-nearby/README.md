@@ -68,6 +68,9 @@ npm install  @tabler/icons-react-native
 
 # Render SVG
 npx expo install react-native-svg
+
+# Install Axios
+npm install axios
 ```
 
 <br>
