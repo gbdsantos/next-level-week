@@ -71,6 +71,9 @@ npx expo install react-native-svg
 
 # Install Axios
 npm install axios
+
+#Install React Native Bottom Sheet and dependencies
+npm i @gorhom/bottom-sheet && npx expo install react-native-reanimated react-native-gesture-handler
 ```
 
 <br>
