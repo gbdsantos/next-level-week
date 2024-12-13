@@ -74,6 +74,12 @@ npm install axios
 
 #Install React Native Bottom Sheet and dependencies
 npm i @gorhom/bottom-sheet && npx expo install react-native-reanimated react-native-gesture-handler
+
+# Install react-native-maps with Expo
+npx expo install react-native-maps
+
+# Install Expo Location
+npx expo install expo-location
 ```
 
 <br>

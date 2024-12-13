@@ -31,7 +31,9 @@ export function Place({ data, ...rest }: Props){
 
       <View>
         <Text style={styles.name}>{data.name}</Text>
-        <Text style={styles.description}>{data.description}</Text>
+        <Text style={styles.description} numberOfLines={2}>
+          {data.description}
+        </Text>
 
         <View style={styles.footer}>
           <IconSticker color={colors.red.base} size={16} />
