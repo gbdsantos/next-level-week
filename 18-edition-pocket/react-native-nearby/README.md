@@ -80,6 +80,9 @@ npx expo install react-native-maps
 
 # Install Expo Location
 npx expo install expo-location
+
+# Install Expo Camera
+npx expo install expo-camera
 ```
 
 <br>

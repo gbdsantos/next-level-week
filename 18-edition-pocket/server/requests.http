@@ -1,0 +1,21 @@
+@baseUrl = http://localhost:3333
+
+# @name get_categories
+GET {{baseUrl}}/categories
+Content-Type: application/json
+
+###
+
+# @name get_markets
+# @prompt categoryId Type category id
+GET {{baseUrl}}/markets/{{categoryId}}
+Content-Type: application/json
+
+###
+
+# @name get_coupons
+# @prompt companyId Type id of company
+PATCH {{baseUrl}}/coupons/{{companyId}}
+Content-Type: application/json
+
+###
