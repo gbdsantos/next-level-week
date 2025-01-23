@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Alert, Image, Keyboard, Text, View } from "react-native"
 
 import dayjs from "dayjs"
@@ -10,6 +10,7 @@ import { Button } from "@/components/button"
 import { Calendar } from "@/components/calendar"
 import { GuestEmail } from "@/components/email"
 import { Input } from "@/components/input"
+import { Loading } from "@/components/loading"
 import { Modal } from "@/components/modal"
 
 import { tripServer } from "@/server/trip-server"
@@ -33,7 +34,8 @@ enum MODAL {
 
 export default function Index() {
   // LOADING
-  const [isCreatingTrip, setIsCratingTrip] = useState(false)
+  const [isCreatingTrip, setIsCreatingTrip] = useState(false)
+  const [isGettingTrip, setIsGettingTrip] = useState(false)
 
   // DATA
   const [destination, setDestination] = useState("")
@@ -125,7 +127,7 @@ export default function Index() {
 
   async function createTrip() {
     try {
-      setIsCratingTrip(true)
+      setIsCreatingTrip(true)
 
       const newTrip = await tripServer.create({
         destination,
@@ -133,6 +135,8 @@ export default function Index() {
         ends_at: dayjs(selectedDates.endsAt?.dateString).toString(),
         emails_to_invite: emailsToInvite
       })
+
+      console.log("NEWTRIP: ", newTrip)
 
       Alert.alert(
         "Nova viagem",
@@ -145,9 +149,39 @@ export default function Index() {
         ]
       )
     } catch (error) {
-      setIsCratingTrip(false)
+      setIsCreatingTrip(false)
       console.log(error)
     }
+  }
+
+  async function getTrip() {
+    try {
+      const tripID = await tripStotrage.get()
+
+      if (!tripID) {
+        return setIsGettingTrip(false)
+      }
+
+      const trip = await tripServer.getById(tripID)
+      console.log(trip)
+
+      if (trip) {
+        return router.navigate(`trip/ + ${tripID}`)
+      }
+
+    } catch (error) {
+      setIsGettingTrip(false)
+      console.log(error)
+    }
+  }
+
+  useEffect(() => {
+    getTrip()
+    console.log("TELA RENDERIZADA")
+  }, [])
+
+  if (isGettingTrip) {
+    return <Loading />
   }
 
   return (
